@@ -1,0 +1,56 @@
+2022-09-09 22:44:48,365 INFO data imported
+2022-09-09 22:44:48,393 INFO base valuses are changed
+2022-09-09 22:44:48,401 INFO pay feature updated
+2022-09-09 22:44:48,458 INFO the dataset is dividind into a training and testing
+2022-09-09 22:44:48,486 INFO the Mean Absolute Error: 0.2570021690702095, Mean Squared Error: 0.14932562358595589, Root Mean Squared Error: 0.3864267376695819
+2022-09-09 22:45:43,409 INFO the Mean Absolute Error: 0.2583915171637082, Mean Squared Error: 0.15061984478057636, Root Mean Squared Error: 0.3880977258121675
+2022-09-09 22:45:44,180 INFO the Mean Absolute Error: 0.4365, Mean Squared Error: 0.4364166666666667, Root Mean Squared Error: 0.6606183971603172
+2022-09-09 22:47:29,537 INFO the Mean Absolute Error: 0.44418222946856006, Mean Squared Error: 0.21199027823720273, Root Mean Squared Error: 0.4604240200480452
+2022-09-09 22:47:34,406 INFO the Mean Absolute Error: 0.1885, Mean Squared Error: 0.1885, Root Mean Squared Error: 0.4341658669218482
+2022-09-09 22:47:34,408 INFO the ML model is saved
+2022-09-09 22:51:38,597 INFO data imported
+2022-09-09 22:51:38,628 INFO base valuses are changed
+2022-09-09 22:51:38,637 INFO pay feature updated
+2022-09-09 22:51:38,689 INFO the dataset is dividind into a training and testing
+2022-09-09 22:51:38,717 INFO the Mean Absolute Error: 0.27159542124785957, Mean Squared Error: 0.1425683170219487, Root Mean Squared Error: 0.3775821990268459
+2022-09-09 22:53:42,423 INFO data imported
+2022-09-09 22:53:42,451 INFO base valuses are changed
+2022-09-09 22:53:42,458 INFO pay feature updated
+2022-09-09 22:53:42,506 INFO the dataset is dividind into a training and testing
+2022-09-09 22:53:42,528 INFO the Mean Absolute Error: 0.27657450526430594, Mean Squared Error: 0.1412566105108509, Root Mean Squared Error: 0.3758412038492465
+2022-09-09 22:54:35,583 INFO the Mean Absolute Error: 0.25248547821472034, Mean Squared Error: 0.14576509417181413, Root Mean Squared Error: 0.3817919514235654
+2022-09-09 22:54:36,465 INFO the Mean Absolute Error: 0.41383333333333333, Mean Squared Error: 0.41383333333333333, Root Mean Squared Error: 0.6432987900916132
+2022-09-09 22:55:16,102 INFO data imported
+2022-09-09 22:55:16,148 INFO base valuses are changed
+2022-09-09 22:55:16,157 INFO pay feature updated
+2022-09-09 22:55:16,229 INFO the dataset is dividind into a training and testing
+2022-09-09 22:55:16,259 INFO the Mean Absolute Error: 0.26044794411203603, Mean Squared Error: 0.1401037726110947, Root Mean Squared Error: 0.3743043849744412
+2022-09-09 22:56:26,547 INFO the Mean Absolute Error: 0.24922012087884407, Mean Squared Error: 0.14402481041941628, Root Mean Squared Error: 0.3795060084101651
+2022-09-09 22:56:27,548 INFO the Mean Absolute Error: 0.4141666666666667, Mean Squared Error: 0.4141666666666667, Root Mean Squared Error: 0.6435578192102608
+2022-09-09 22:57:51,698 INFO data imported
+2022-09-09 22:57:51,723 INFO base valuses are changed
+2022-09-09 22:57:51,730 INFO pay feature updated
+2022-09-09 22:57:51,777 INFO the dataset is dividind into a training and testing
+2022-09-09 22:57:51,799 INFO the Mean Absolute Error: 0.2518390288067903, Mean Squared Error: 0.13997928332379184, Root Mean Squared Error: 0.3741380538301228
+2022-09-09 22:58:47,101 INFO the Mean Absolute Error: 0.2467096099971803, Mean Squared Error: 0.1399711757662206, Root Mean Squared Error: 0.37412721869201204
+2022-09-09 22:58:47,992 INFO the Mean Absolute Error: 0.4083333333333333, Mean Squared Error: 0.4083333333333333, Root Mean Squared Error: 0.6390096504226938
+2022-09-09 23:00:11,112 INFO  * Restarting with stat
+2022-09-09 23:00:14,345 WARNING  * Debugger is active!
+2022-09-09 23:00:14,386 INFO  * Debugger PIN: 128-788-289
+2022-09-09 23:00:14,746 INFO  * Running on http://127.0.0.1:50001/ (Press CTRL+C to quit)
+2022-09-09 23:00:25,982 INFO 127.0.0.1 - - [09/Sep/2022 23:00:25] "GET / HTTP/1.1" 200 -
+2022-09-09 23:00:25,986 INFO 127.0.0.1 - - [09/Sep/2022 23:00:25] "GET / HTTP/1.1" 200 -
+2022-09-09 23:00:26,551 INFO 127.0.0.1 - - [09/Sep/2022 23:00:26] "GET /static/test.css HTTP/1.1" 200 -
+2022-09-09 23:00:26,733 INFO 127.0.0.1 - - [09/Sep/2022 23:00:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-09-09 23:01:13,388 INFO 127.0.0.1 - - [09/Sep/2022 23:01:13] "POST /success HTTP/1.1" 200 -
+2022-09-09 23:02:57,555 INFO 127.0.0.1 - - [09/Sep/2022 23:02:57] "POST /output HTTP/1.1" 200 -
+2022-09-09 23:05:46,385 INFO  * Restarting with stat
+2022-09-09 23:05:49,629 WARNING  * Debugger is active!
+2022-09-09 23:05:49,640 INFO  * Debugger PIN: 128-788-289
+2022-09-09 23:05:49,959 INFO  * Running on http://127.0.0.1:50001/ (Press CTRL+C to quit)
+2022-09-09 23:05:53,641 INFO 127.0.0.1 - - [09/Sep/2022 23:05:53] "POST /output HTTP/1.1" 200 -
+2022-09-09 23:06:15,197 INFO  * Restarting with stat
+2022-09-09 23:06:19,212 WARNING  * Debugger is active!
+2022-09-09 23:06:19,222 INFO  * Debugger PIN: 128-788-289
+2022-09-09 23:06:19,538 INFO  * Running on http://127.0.0.1:50001/ (Press CTRL+C to quit)
+2022-09-09 23:06:19,687 INFO 127.0.0.1 - - [09/Sep/2022 23:06:19] "POST /output HTTP/1.1" 200 -
