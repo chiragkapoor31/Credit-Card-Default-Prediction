@@ -1,5 +1,5 @@
 from flask import *
-
+from main import predict_default
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
 
@@ -13,6 +13,7 @@ def success():
     if request.method == 'POST':
         f = request.files['file']
         f.save(f.filename)
+
         return render_template("success.html",data=[{'gender': 'Female'}, {'gender': 'Male'}] , data1=[{'Maritial_Status': 'Single'}, {'Maritial_Status': 'Married'}],data2=[{'grad_school': 'No'}, {'grad_school': 'Yes'}],data3=[{'university': 'No'}, {'university': 'Yes'}],data4=[{'high_school': 'No'}, {'high_school': 'Yes'}] ,name=f.filename)
 
 
@@ -73,10 +74,14 @@ def output():
     else:
         Maritial_Status = 1
 
-
-    return render_template("xxx.html",limit_bal = limit_bal , age = age , bill_amt1 = bill_amt1 , bill_amt2 = bill_amt2 , bill_amt3 = bill_amt3 , bill_amt4 = bill_amt4 , bill_amt5 = bill_amt5 , bill_amt6 = bill_amt6 , pay_amt1 = pay_amt1 , pay_amt2 = pay_amt2 , pay_amt3 = pay_amt3 , pay_amt4 = pay_amt4 , pay_amt5 = pay_amt5 , pay_amt6 = pay_amt6  , pay_0 = pay_0 , pay_2 = pay_2 , pay_3 = pay_3 , pay_4 = pay_4 , pay_5 = pay_5 , pay_6=pay_6  , grad_school = grad_school , university = university  , high_school = high_school , Gender =Gender , Maritial_Status = Maritial_Status  )
+    a = predict_default(limit_bal,age,pay_0,pay_2,pay_3,pay_4,pay_5,pay_6,bill_amt1,bill_amt2,bill_amt3,bill_amt4,bill_amt5,bill_amt6,pay_amt1,pay_amt2,pay_amt3,pay_amt4,pay_amt5,pay_amt6,grad_school,university,high_school,Gender,Maritial_Status)
+    if a == [0]:
+        prediction = "Will Not Default"
+    else:
+        prediction = "Will Default"
+    return render_template("xxx.html",limit_bal = limit_bal , age = age , bill_amt1 = bill_amt1 , bill_amt2 = bill_amt2 , bill_amt3 = bill_amt3 , bill_amt4 = bill_amt4 , bill_amt5 = bill_amt5 , bill_amt6 = bill_amt6 , pay_amt1 = pay_amt1 , pay_amt2 = pay_amt2 , pay_amt3 = pay_amt3 , pay_amt4 = pay_amt4 , pay_amt5 = pay_amt5 , pay_amt6 = pay_amt6  , pay_0 = pay_0 , pay_2 = pay_2 , pay_3 = pay_3 , pay_4 = pay_4 , pay_5 = pay_5 , pay_6=pay_6  , grad_school = grad_school , university = university  , high_school = high_school , Gender =Gender , Maritial_Status = Maritial_Status, prediction =prediction)
 
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='127.0.0.1', port=50001, debug=True)
