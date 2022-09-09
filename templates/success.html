@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Credit Card Default
+	</title>
+
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color:#d0d1de;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #d0d1de;
+			border: 1px solid #777;
+			border-radius: 1px;
+			font-family: 'Google Sans';
+			font-size: 20px;
+            text-align: center;
+			width: 25%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+        button:hover {
+            background-color:#d0d1dec5
+        }
+
+	</style>
+</head>
+
+<body>
+	<h1>Please Write The Client Details</h1>
+
+	<!-- Create Form -->
+	<form action="/output" method="POST" >
+
+		<!-- Details -->
+        <div class="form-control">
+			<label for="limit_bal" id="limit_bal">limit_bal</label>
+			<input type="number" name="limit_bal" id="limit_bal" placeholder="Enter the limit_bal" />
+		</div>
+
+        <!-- Details -->
+        <div class="form-control">
+			<label for="age" id="age">age</label>
+			<input type="number" name="age" id="age" placeholder="Enter the age" />
+		</div>
+
+        <!-- Details -->
+        <div class="form-control">
+			<label for="bill_amt1" id="bill_amt1">bill_amt1</label>
+			<input type="number" name="bill_amt1" id="bill_amt1" placeholder="Enter the bill_amt1" />
+		</div>
+
+		  <!-- Details -->
+        <div class="form-control">
+			<label for="bill_amt2" id="bill_amt2">bill_amt2</label>
+			<input type="number" name="bill_amt2" id="bill_amt2" placeholder="Enter the bill_amt2" />
+		</div>
+
+		  <!-- Details -->
+        <div class="form-control">
+			<label for="bill_amt3" id="bill_amt3">bill_amt3</label>
+			<input type="number" name="bill_amt3" id="bill_amt3" placeholder="Enter the bill_amt3" />
+		</div>
+
+		  <!-- Details -->
+        <div class="form-control">
+			<label for="bill_amt4" id="bill_amt4">bill_amt4</label>
+			<input type="number" name="bill_amt4" id="bill_amt4" placeholder="Enter the bill_amt4" />
+		</div>
+
+          <!-- Details -->
+        <div class="form-control">
+			<label for="bill_amt5" id="bill_amt5">bill_amt5</label>
+			<input type="number" name="bill_amt5" id="bill_amt5" placeholder="Enter the bill_amt5" />
+		</div>
+
+         <!-- Details -->
+        <div class="form-control">
+			<label for="bill_amt6" id="bill_amt6">bill_amt6</label>
+			<input type="number" name="bill_amt6" id="bill_amt6" placeholder="Enter the bill_amt6" />
+		</div>
+
+        <!-- Details -->
+        <div class="form-control">
+			<label for="pay_amt1" id="pay_amt1">pay_amt1</label>
+			<input type="number" name="pay_amt1" id="pay_amt1" placeholder="Enter the pay_amt1" />
+		</div>
+
+         <!-- Details -->
+         <div class="form-control">
+			<label for="pay_amt2" id="pay_amt2">pay_amt2</label>
+			<input type="number" name="pay_amt2" id="pay_amt2" placeholder="Enter the pay_amt2" />
+		</div>
+
+        <!-- Details -->
+        <div class="form-control">
+			<label for="pay_amt3" id="pay_amt3">pay_amt3</label>
+			<input type="number" name="pay_amt3" id="pay_amt3" placeholder="Enter the pay_amt3" />
+		</div>
+
+         <!-- Details -->
+         <div class="form-control">
+			<label for="pay_amt4" id="pay_amt4">pay_amt4</label>
+			<input type="number" name="pay_amt4" id="pay_amt4" placeholder="Enter the pay_amt4" />
+		</div>
+
+         <!-- Details -->
+         <div class="form-control">
+			<label for="pay_amt5" id="pay_amt5">pay_amt5</label>
+			<input type="number" name="pay_amt5" id="pay_amt5" placeholder="Enter the pay_amt5" />
+		</div>
+
+         <!-- Details -->
+         <div class="form-control">
+			<label for="pay_amt6" id="pay_amt6">pay_amt6</label>
+			<input type="number" name="pay_amt6" id="pay_amt6" placeholder="Enter the pay_amt6" />
+		</div>
+
+
+        <!-- Details -->
+        <div class="form-control">
+			<label for="pay_0" id="pay_0">pay_0</label>
+			<input type="number" name="pay_0" id="pay_0" placeholder="Enter the pay_0" />
+		</div>
+
+        <!-- Details -->
+        <div class="form-control">
+           <label for="pay_2" id="pay_2">pay_2</label>
+           <input type="number" name="pay_2" id="pay_2" placeholder="Enter the pay_2" />
+       </div>
+
+       <!-- Details -->
+       <div class="form-control">
+          <label for="pay_3" id="pay_3">pay_3</label>
+          <input type="number" name="pay_3"  id ="pay_3"placeholder="Enter the pay_3" />
+      </div>
+
+      <!-- Details -->
+      <div class="form-control">
+         <label for="pay_4" id="pay_4">pay_4</label>
+         <input type="number" name = "pay_4"id="pay_4"  placeholder="Enter the pay_4" />
+     </div>
+
+		<!-- Details -->
+     <div class="form-control">
+        <label for="pay_5" id="pay_5">pay_5</label>
+        <input type="number" name = "pay_5" id="pay_5" placeholder="Enter the pay_5" />
+    </div>
+
+    <!-- Details -->
+    <div class="form-control">
+       <label for="pay_6" id="pay_6">pay_6</label>
+       <input type="number" name = "pay_6" id="pay_6" placeholder="Enter the pay_6" />
+   </div>
+
+	<div class="form-control">
+        <label for="grad_school" id="grad_school">grad_school</label>
+        <select name="comp_select2" class="Input">
+      			{% for o in data2 %}
+				<option value="{{ o.grad_school }}">{{ o.grad_school }}</option>
+				{% endfor %}
+		</select>
+    </div>
+
+    <div class="form-control">
+        <label for="university" id="university">university</label>
+		<select name="comp_select3" class="Input">
+      			{% for o in data3 %}
+				<option value="{{ o.university }}">{{ o.university }}</option>
+				{% endfor %}
+		</select>
+    </div>
+
+
+    <div class="form-control">
+        <label for="high_school" id="high_school">high_school</label>
+        <select name="comp_select4" class="Input">
+      			{% for o in data4 %}
+				<option value="{{ o.high_school }}">{{ o.high_school }}</option>
+				{% endfor %}
+		</select>
+    </div>
+
+
+    <div class="form-control">
+        <label for="Gender" id="Gender">Gender</label>
+        <select name="comp_select" class="Input">
+              {% for o in data %}
+            <option value="{{ o.gender }}">{{ o.gender }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+
+    <div class="form-control">
+        <label for="Maritial_Status" id="Maritial_Status">Maritial_Status</label>
+        <select name="comp_select1" class="Input">
+      			{% for o in data1 %}
+				<option value="{{ o.Maritial_Status }}">{{ o.Maritial_Status }}</option>
+				{% endfor %}
+		</select>
+    </div>
+
+
+   <button>Submit</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+		Credit Card Default
+	</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+        background-color:#d0d1de;
+        font-family: Verdana;
+    }
+
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<section>
+
+  <table>
+<tr>
+  <td>
+    <div>
+     <h2>Entered Client Details </h2>
+     <label>limit_bal<label>
+      :{{limit_bal}}<br>
+     <label>age<label>
+      :{{age}}<br>
+    <label>bill_amt1<label>
+      :{{bill_amt1}}<br>
+    <label>bill_amt2<label>
+      :{{bill_amt2}}<br>
+    <label>bill_amt3<label>
+      :{{bill_amt3}}<br>
+    <label>bill_amt4<label>
+      :{{bill_amt4}}<br>
+    <label>bill_amt5<label>
+      :{{bill_amt5}}<br>
+    <label>bill_amt6<label>
+      :{{bill_amt6}}<br>
+      <label>pay_amt1<label>
+        :{{pay_amt1}}<br>
+      <label>pay_amt2<label>
+        :{{pay_amt2}}<br>
+      <label>pay_amt3<label>
+        :{{pay_amt3}}<br>
+      <label>pay_amt4<label>
+        :{{pay_amt4}}<br>
+      <label>pay_amt5<label>
+        :{{pay_amt5}}<br>
+      <label>pay_amt6<label>
+        :{{pay_amt6}}<br>
+      <label>Maritial_Status<label>
+        :{{Maritial_Status}}<br>
+      <label>pgrad_school<label>
+        :{{grad_school}}<br>
+      <label>university<label>
+        :{{university}}<br>
+      <label>high_school<label>
+        :{{high_school}}<br>
+      <label>pay_1<label>
+        :{{pay_1}}<br>
+      <label>pay_2<label>
+        :{{pay_2}}<br>
+      <label>pay_3<label>
+        :{{pay_3}}<br>
+      <label>pay_4<label>
+        :{{pay_4}}<br>
+      <label>pay_5<label>
+        :{{pay_5}}<br>
+      <label>pay_6<label>
+        :{{pay_6}}
+    </div>
+  </td>
+  </tr>
+
+  <td>
+    <div>
+    <h2>Output</h2>
+    </div>
+  </td>
+</tr>
+  </table>
+
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
