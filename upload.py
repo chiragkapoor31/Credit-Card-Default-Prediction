@@ -80,13 +80,7 @@ def output():
         prediction = "Will Not Default"
     else:
         prediction = "Will Default"
-    return render_template("xxx.html", limit_bal=limit_bal, age=age, bill_amt1=bill_amt1, bill_amt2=bill_amt2,
-                           bill_amt3=bill_amt3, bill_amt4=bill_amt4, bill_amt5=bill_amt5, bill_amt6=bill_amt6,
-                           pay_amt1=pay_amt1, pay_amt2=pay_amt2, pay_amt3=pay_amt3, pay_amt4=pay_amt4,
-                           pay_amt5=pay_amt5, pay_amt6=pay_amt6, pay_0=pay_0, pay_2=pay_2, pay_3=pay_3, pay_4=pay_4,
-                           pay_5=pay_5, pay_6=pay_6, grad_school=grad_school, university=university,
-                           high_school=high_school, Gender=Gender, Maritial_Status=Maritial_Status,
-                           prediction=prediction)
+    
 
     return render_template("output.html",limit_bal = limit_bal , age = age , pay_0 = pay_0 , pay_2 = pay_2 , pay_3 = pay_3 , pay_4 = pay_4 , pay_5 = pay_5 , pay_6=pay_6 , bill_amt1 = bill_amt1 , bill_amt2 = bill_amt2 , bill_amt3 = bill_amt3 , bill_amt4 = bill_amt4 , bill_amt5 = bill_amt5 , bill_amt6 = bill_amt6 , pay_amt1 = pay_amt1 , pay_amt2 = pay_amt2 , pay_amt3 = pay_amt3 , pay_amt4 = pay_amt4 , pay_amt5 = pay_amt5 , pay_amt6 = pay_amt6 , grad_school = grad_school , university = university  , high_school = high_school , Gender =Gender , Maritial_Status = Maritial_Status , prediction =prediction )
 
