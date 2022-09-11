@@ -1,23 +1,8 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 
 :root {
   --primary: #2e44ff;
   --primary-accent: #e9e5ff;
-  --text-primary: #0d0f21;
   --text-secondary: #6a6b76;
-  --bg-primary: #d0d1de;
-  --secondary: #e5e5e5;
-}
-
-body {
-  font-family: 'Google Sans', 'Segoe UI', Arial sans-serif;
-  color: var(--text-primary);
-  background-color: var(--bg-primary);
-  line-height: 1.5;
 }
 
 input,
@@ -56,23 +41,6 @@ textarea {
 .logo-circle svg {
   max-width: 1.5rem;
   fill: var(--primary);
-}
-
-.btn-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 0.25rem;
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-}
-
-.btn-close:hover,
-.btn-close:focus {
-  background-color: var(--primary-accent);
 }
 
 .modal-body {
@@ -121,23 +89,3 @@ textarea {
   color: var(--text-secondary);
 }
 
-.modal-footer {
-  padding: 1rem 1.5rem 1.5rem;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.modal-footer .btn {
-  margin-left: 0.75rem;
-  padding: 0.5rem 1rem;
-  border: 2px solid var(--secondary);
-  border-radius: 0.25rem;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.modal-footer .btn:last-child {
-  color: #fff;
-  background-color: var(--primary);
-  border-color: var(--primary);
-}
