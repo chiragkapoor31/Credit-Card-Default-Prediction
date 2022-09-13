@@ -19,3 +19,4 @@ typing_extensions==4.1.1
 Werkzeug==2.0.3
 wincertstore==0.2
 zipp==3.6.0
+numpy==1.13.3
